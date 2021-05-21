@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:walpaper_app/drawer.dart';
+import 'package:wallpaper_app/drawer.dart';
 
-class homePage extends StatefulWidget {
+class homepage extends StatefulWidget {
   @override
   _homepageState createState() => _homepageState();
 }
 
-class _homeageState extends State<homepage> {
+class _homepageState extends State<homepage> {
   List<String> images = [
     "images/download.png",
     "images/download1.png",
@@ -210,10 +210,10 @@ class _MainWidgetState extends State<MainWidget> with TickerProviderStateMixin {
           ),
         ),
         DrawerItem(
-          onPressed: () {
-            Navigator.of(context)
-                .push(MaterialPageRoute(builder: (_) => Page2()));
-          },
+//          onPressed: () {
+//            Navigator.of(context)
+//                .push(MaterialPageRoute(builder: (_) => Page2()));
+//          },
           text: Text(
             'Contact Us',
             style: TextStyle(color: Colors.white),
