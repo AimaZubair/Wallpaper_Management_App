@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flare_flutter/flare_actor.dart';
-
+import 'home.dart';
 class splashscreen extends StatefulWidget {
   @override
   _splashscreenState createState() => _splashscreenState();
@@ -12,11 +12,11 @@ class _splashscreenState extends State<splashscreen> {
   @override
   void initState() {
     super.initState();
-  //  Timer(Duration(seconds: 35), () {
-     // Navigator.of(context).pushReplacement(MaterialPageRoute(
-     //   builder: (context) => homepage(),
-  //    ));
-  //  });
+    Timer(Duration(seconds: 35), () {
+    Navigator.of(context).pushReplacement(MaterialPageRoute(
+     builder: (context) => homepage(),
+    ));
+    });
   }
 
   // added test yourself

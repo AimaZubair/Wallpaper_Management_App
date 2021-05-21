@@ -57,7 +57,6 @@ flutter:
   assets:
     - images/
     - assets/
-    - assets/loading.flr
     - assets/flareintro.flr
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
