@@ -126,6 +126,7 @@ class _homepageState extends State<homepage> {
   }
 }
 
+/*
 class MainPage extends DrawerContent {
   MainPage({Key key, this.title});
   final String title;
@@ -265,3 +266,4 @@ class _MainWidgetState extends State<MainWidget> with TickerProviderStateMixin {
     );
   }
 }
+*/
