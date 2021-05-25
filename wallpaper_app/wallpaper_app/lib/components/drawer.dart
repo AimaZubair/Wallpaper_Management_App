@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wallpaper_app/components/drawer.dart';
 
 class HiddenDrawerController {
   HiddenDrawerController({this.items, @required DrawerContent initialPage}) {

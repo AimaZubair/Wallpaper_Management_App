@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:wallpaper_app/drawer.dart';
+import 'package:wallpaper_app/components/drawer.dart';
+import 'package:wallpaper_app/components/AppBar.dart';
 
 class homepage extends StatefulWidget {
   @override
@@ -101,16 +102,8 @@ class _homepageState extends State<homepage> {
         [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
       backgroundColor: Colors.black,
-      appBar: AppBar(
-        backgroundColor: Colors.grey,
-        centerTitle: true,
-        title: Text(
-          "Wallpaper Management App",
-          style: TextStyle(
-            fontFamily: "serif",
-          ),
-        ),
-      ),
+      appBar: appBar(context),
+      drawer: DrawerItem(),
       body: Center(
         child: ListView(
           children: <Widget>[
