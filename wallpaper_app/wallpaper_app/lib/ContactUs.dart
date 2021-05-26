@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+class ContactUs extends StatefulWidget {
+  @override
+  _ContactUsState createState() => _ContactUsState();
+}
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class _ContactUsState extends State<ContactUs> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,7 +24,16 @@ class MyApp extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          title: Text('Contact Us'),
+          title: Center(
+            child: Text(
+              'Contact Us',
+              style: TextStyle(
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'FredokaOne',
+              ),
+            ),
+          ),
         ),
         body: SafeArea(
           child: Column(
@@ -54,7 +65,7 @@ class MyApp extends StatelessWidget {
                     Icons.phone,
                     color: Colors.pink,
                   ),
-                  title: Text('030456785325'),
+                  title: Text('03052454640'),
                 ),
               ),
               Card(
@@ -64,7 +75,7 @@ class MyApp extends StatelessWidget {
                     Icons.email,
                     color: Colors.pink,
                   ),
-                  title: Text('FilzaMukhtar@gmail.com'),
+                  title: Text('wallpaper@gmail.com'),
                 ),
               ),
             ],

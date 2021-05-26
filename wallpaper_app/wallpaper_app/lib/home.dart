@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:wallpaper_app/components/drawer.dart';
-import 'package:wallpaper_app/components/AppBar.dart';
+import 'ContactUs.dart';
+import 'gallery.dart';
 
-class homepage extends StatefulWidget {
+class Homepage extends StatefulWidget {
   @override
-  _homepageState createState() => _homepageState();
+  _HomepageState createState() => _HomepageState();
 }
 
-class _homepageState extends State<homepage> {
+class _HomepageState extends State<Homepage> {
   List<String> images = [
     "images/download.png",
     "images/download1.png",
@@ -102,8 +102,20 @@ class _homepageState extends State<homepage> {
         [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
       backgroundColor: Colors.black,
-      appBar: appBar(context),
-      drawer: DrawerItem(),
+      drawer: NavDrawer(),
+      appBar: AppBar(
+        backgroundColor: Colors.grey,
+        title: Center(
+          child: Text(
+            'Wallpaper Management App',
+            style: TextStyle(
+              fontSize: 30.0,
+              fontWeight: FontWeight.bold,
+              fontFamily: 'FredokaOne',
+            ),
+          ),
+        ),
+      ),
       body: Center(
         child: ListView(
           children: <Widget>[
@@ -119,144 +131,62 @@ class _homepageState extends State<homepage> {
   }
 }
 
-/*
-class MainPage extends DrawerContent {
-  MainPage({Key key, this.title});
-  final String title;
-  @override
-  _MainPageState createState() => _MainPageState();
-}
-
-class _MainPageState extends State<MainPage> {
+class NavDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Center(
-        child: Column(
-          children: <Widget>[
-            Row(
-              children: <Widget>[
-                ClipRRect(
-                  borderRadius: BorderRadius.all(Radius.circular(32.0)),
-                  child: Material(
-                    shadowColor: Colors.transparent,
-                    color: Colors.transparent,
-                    child: IconButton(
-                      icon: Icon(
-                        Icons.menu,
-                        color: Colors.black,
-                      ),
-                      onPressed: widget.onMenuPressed,
-                    ),
-                  ),
-                ),
-              ],
+    return Drawer(
+      child: ListView(
+        padding: EdgeInsets.zero,
+        children: <Widget>[
+          UserAccountsDrawerHeader(
+            accountName: Text("Wallpaper App"),
+            accountEmail: Text("wallpaper@gmail.com"),
+            decoration: BoxDecoration(
+              gradient: new LinearGradient(
+                  colors: [
+                    Colors.grey,
+                    Colors.blueGrey,
+                  ],
+                  begin: Alignment.topLeft,
+                  end: Alignment.topRight,
+                  tileMode: TileMode.clamp),
             ),
-            Expanded(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Text(widget.title),
-                ],
+            currentAccountPicture: CircleAvatar(
+              backgroundColor: Theme.of(context).platform == TargetPlatform.iOS
+                  ? const Color(0xFF00897b)
+                  : Colors.white,
+              child: Text(
+                "W",
+                style: TextStyle(fontSize: 40.0),
               ),
             ),
-          ],
-        ),
+          ),
+          ListTile(
+            leading: Icon(Icons.home),
+            title: Text('Home'),
+            onTap: () => {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => Homepage())),
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.photo_album),
+            title: Text('Gallery'),
+            onTap: () => {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => Gallery())),
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.contact_page),
+            title: Text('Contact Us'),
+            onTap: () => {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ContactUs())),
+            },
+          ),
+        ],
       ),
     );
   }
 }
-
-class MainWidget extends StatefulWidget {
-  MainWidget({Key key, this.title}) : super(key: key);
-  final String title;
-
-  @override
-  _MainWidgetState createState() => _MainWidgetState();
-}
-
-class _MainWidgetState extends State<MainWidget> with TickerProviderStateMixin {
-  HiddenDrawerController _drawerController;
-
-  @override
-  void initState() {
-    super.initState();
-    _drawerController = HiddenDrawerController(
-      initialPage: MainPage(
-        title: 'main',
-      ),
-      items: [
-        DrawerItem(
-          text: Text('Home', style: TextStyle(color: Colors.white)),
-          icon: Icon(Icons.home, color: Colors.white),
-          page: MainPage(
-            title: 'Home',
-          ),
-        ),
-        DrawerItem(
-          text: Text(
-            'Gallery',
-            style: TextStyle(color: Colors.white),
-          ),
-          icon: Icon(Icons.photo_album, color: Colors.white),
-          page: MainPage(
-            title: 'Gallery',
-          ),
-        ),
-        DrawerItem(
-//          onPressed: () {
-//            Navigator.of(context)
-//                .push(MaterialPageRoute(builder: (_) => Page2()));
-//          },
-          text: Text(
-            'Contact Us',
-            style: TextStyle(color: Colors.white),
-          ),
-          icon: Icon(Icons.contact_page, color: Colors.white),
-          page: MainPage(
-            title: 'Contact Us',
-          ),
-        ),
-      ],
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: HiddenDrawer(
-        controller: _drawerController,
-        header: Align(
-          alignment: Alignment.topLeft,
-          child: Column(
-            children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: CircleAvatar(
-                  radius: 100,
-                  backgroundImage: NetworkImage(''),
-                ),
-              ),
-              SizedBox(
-                height: 4,
-              ),
-              Text(
-                'Wallpaper App',
-                style: TextStyle(color: Colors.white, fontSize: 20),
-              )
-            ],
-          ),
-        ),
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topRight,
-            end: Alignment.bottomLeft,
-            colors: [Colors.deepPurple[500], Colors.purple[500], Colors.purple],
-            // tileMode: TileMode.repeated,
-          ),
-        ),
-      ),
-    );
-  }
-}
-*/

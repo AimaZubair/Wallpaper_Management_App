@@ -1,16 +1,25 @@
 import 'package:flutter/material.dart';
 
-class Page2 extends StatefulWidget {
+class Gallery extends StatefulWidget {
   @override
-  _Page2State createState() => _Page2State();
+  _GalleryState createState() => _GalleryState();
 }
 
-class _Page2State extends State<Page2> {
+class _GalleryState extends State<Gallery> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Gallery'),
+          title: Center(
+            child: Text(
+              'Gallery',
+              style: TextStyle(
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'FredokaOne',
+              ),
+            ),
+          ),
         ),
         body: Center(
           child: Text('Gallery'),
