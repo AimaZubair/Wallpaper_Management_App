@@ -17,8 +17,7 @@ class _GalleryState extends State<Gallery> {
               'Gallery',
               style: TextStyle(
                 fontSize: 30.0,
-                fontWeight: FontWeight.bold,
-                fontFamily: 'FredokaOne',
+            
               ),
             ),
           ),

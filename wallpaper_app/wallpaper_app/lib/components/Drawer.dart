@@ -20,7 +20,7 @@ class MyDrawer extends StatelessWidget {
                       Colors.redAccent,
                     ],
                     begin: Alignment.topLeft,
-                    end: Alignment.topRight,
+
                     tileMode: TileMode.clamp),
               ),
               child: Padding(

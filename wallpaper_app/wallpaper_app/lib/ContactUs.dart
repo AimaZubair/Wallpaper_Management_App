@@ -28,8 +28,7 @@ class _ContactUsState extends State<ContactUs> {
               'Contact Us',
               style: TextStyle(
                 fontSize: 30.0,
-                fontWeight: FontWeight.bold,
-                fontFamily: 'FredokaOne',
+
               ),
             ),
           ),

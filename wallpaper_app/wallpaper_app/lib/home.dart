@@ -110,7 +110,7 @@ class _HomepageState extends State<Homepage> {
             style: TextStyle(
               fontSize: 30.0,
               fontWeight: FontWeight.bold,
-              fontFamily: 'FredokaOne',
+
             ),
           ),
         ),
