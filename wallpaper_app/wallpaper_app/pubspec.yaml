@@ -58,6 +58,9 @@ flutter:
     - images/
     - assets/
     - assets/flareintro.flr
+    - assets/AA.png
+    - assets/faizan.jpeg
+    - assets/Maria.jpeg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

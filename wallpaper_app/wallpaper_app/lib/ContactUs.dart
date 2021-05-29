@@ -9,11 +9,9 @@ class _ContactUsState extends State<ContactUs> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: Color(0xFF282A36),
-        primaryColor: Colors.pink,
-      ),
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.black,
         appBar: AppBar(
           leading: IconButton(
             onPressed: () {
@@ -24,9 +22,10 @@ class _ContactUsState extends State<ContactUs> {
               color: Colors.white,
             ),
           ),
+          backgroundColor: Colors.grey,
           title: Center(
             child: Text(
-              'Contact Us',
+              'Wallpaper Management App',
               style: TextStyle(
                 fontSize: 30.0,
                 fontWeight: FontWeight.bold,
@@ -39,44 +38,212 @@ class _ContactUsState extends State<ContactUs> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              CircleAvatar(
-                radius: 40.0,
-                backgroundImage: AssetImage('images/profile.jpg'),
-              ),
-              SizedBox(
-                height: 10.0,
-              ),
-              Text('Filza Mukhtar'.toUpperCase()),
-              SizedBox(
-                height: 15.0,
-                width: 200.0,
-                child: Divider(
-                  color: Colors.pink,
-                ),
-              ),
-              Text('FA17-BCS-021'.toUpperCase()),
-              SizedBox(
-                height: 10.0,
-              ),
-              Card(
-                margin: EdgeInsets.all(10.0),
-                child: ListTile(
-                  leading: Icon(
-                    Icons.phone,
-                    color: Colors.pink,
+              Center(
+                child: Text(
+                  'Contact Us',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 30.0,
+                    color: Colors.white,
                   ),
-                  title: Text('03052454640'),
                 ),
               ),
-              Card(
-                margin: EdgeInsets.all(10.0),
-                child: ListTile(
-                  leading: Icon(
-                    Icons.email,
-                    color: Colors.pink,
+              Padding(
+                padding: EdgeInsets.only(top: 20.0),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Padding(
+                    padding: EdgeInsets.only(left: 60.0),
                   ),
-                  title: Text('wallpaper@gmail.com'),
-                ),
+                  Column(
+                    children: <Widget>[
+                      CircleAvatar(
+                        radius: 60.0,
+                        backgroundImage: AssetImage('images/AA.png'),
+                        backgroundColor: Colors.white,
+                      ),
+                      SizedBox(
+                        height: 10.0,
+                      ),
+                      Text(
+                        'Aima Zubair',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                      Text(
+                        'FA17-BCS-009',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(left: 60.0),
+                  ),
+                  Column(
+                    children: <Widget>[
+                      CircleAvatar(
+                        radius: 60.0,
+                        backgroundImage: AssetImage('images/faizan.jpeg'),
+                      ),
+                      SizedBox(
+                        height: 10.0,
+                      ),
+                      Text(
+                        'Faizan Ali',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                      Text(
+                        'FA17-BCS-016',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(left: 60.0),
+                  ),
+                  Column(
+                    children: <Widget>[
+                      CircleAvatar(
+                        radius: 60.0,
+                        backgroundImage: AssetImage('assets/profile.jpg'),
+                      ),
+                      SizedBox(
+                        height: 10.0,
+                      ),
+                      Text(
+                        'Hafsa Faryad',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                      Text(
+                        'FA17-BCS-025',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 20.0, left: 20.0, bottom: 20.0),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Padding(
+                    padding: EdgeInsets.only(left: 60.0),
+                  ),
+                  Column(
+                    children: <Widget>[
+                      CircleAvatar(
+                        radius: 60.0,
+                        backgroundImage: AssetImage('images/profile.jpg'),
+                      ),
+                      SizedBox(
+                        height: 10.0,
+                      ),
+                      Text(
+                        'Filza Mukhtar',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                      Text(
+                        'FA17-BCS-022',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(left: 60.0),
+                  ),
+                  Column(
+                    children: <Widget>[
+                      CircleAvatar(
+                        radius: 60.0,
+                        backgroundImage: AssetImage('images/profile.jpg'),
+                      ),
+                      SizedBox(
+                        height: 10.0,
+                      ),
+                      Text(
+                        'Jaweria Bashir',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                      Text(
+                        'FA1-BCS-031',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(left: 60.0),
+                  ),
+                  Column(
+                    children: <Widget>[
+                      CircleAvatar(
+                        radius: 60.0,
+                        backgroundImage: AssetImage('images/Maria.jpeg'),
+                      ),
+                      SizedBox(
+                        height: 10.0,
+                      ),
+                      Text(
+                        'Maria Nadeem',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                      Text(
+                        'FA17-BCS-039',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
               ),
             ],
           ),
