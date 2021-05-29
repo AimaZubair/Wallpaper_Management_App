@@ -3,61 +3,87 @@ import 'package:wallpaper_app/home.dart';
 import 'package:wallpaper_app/gallery.dart';
 import 'package:wallpaper_app/ContactUs.dart';
 
-class NavDrawer extends StatelessWidget {
+class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Drawer(
-      child: ListView(
-        padding: EdgeInsets.zero,
-        children: <Widget>[
-          UserAccountsDrawerHeader(
-            accountName: Text("Wallpaper App"),
-            accountEmail: Text("wallpaper@gmail.com"),
-            decoration: BoxDecoration(
-              gradient: new LinearGradient(
-                  colors: [
-                    Colors.grey,
-                    Colors.blueGrey,
+    return SizedBox(
+      width: MediaQuery.of(context).size.width * 0.8,
+      child: Drawer(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            DrawerHeader(
+              decoration: BoxDecoration(
+                gradient: new LinearGradient(
+                    colors: [
+                      Colors.red,
+                      Colors.redAccent,
+                    ],
+                    begin: Alignment.topLeft,
+                    end: Alignment.topRight,
+                    tileMode: TileMode.clamp),
+              ),
+              child: Padding(
+                padding: EdgeInsets.all(6),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: <Widget>[
+                    Container(
+                      width: 70,
+                      height: 70,
+                      child: CircleAvatar(
+                        radius: 60.0,
+                        backgroundImage: AssetImage('assets/assets/icon.png'),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 15,
+                    ),
+                    Text(
+                      'Wallpaper App',
+                      style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      'wallpaper@gmail.com',
+                      style: TextStyle(fontSize: 12, color: Colors.white),
+                    ),
                   ],
-                  begin: Alignment.topLeft,
-                  end: Alignment.topRight,
-                  tileMode: TileMode.clamp),
-            ),
-            currentAccountPicture: CircleAvatar(
-              backgroundColor: Theme.of(context).platform == TargetPlatform.iOS
-                  ? const Color(0xFF00897b)
-                  : Colors.white,
-              child: Text(
-                "W",
-                style: TextStyle(fontSize: 40.0),
+                ),
               ),
             ),
-          ),
-          ListTile(
-            leading: Icon(Icons.home),
-            title: Text('Home'),
-            onTap: () => {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => Homepage())),
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.photo_album),
-            title: Text('Gallery'),
-            onTap: () => {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => Gallery())),
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.contact_page),
-            title: Text('Contact Us'),
-            onTap: () => {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ContactUs())),
-            },
-          ),
-        ],
+            ListTile(
+              leading: Icon(Icons.home),
+              title: Text('Home'),
+              onTap: () => {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Homepage())),
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.photo_album),
+              title: Text('Gallery'),
+              onTap: () => {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Gallery())),
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.contact_page),
+              title: Text('Contact Us'),
+              onTap: () => {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => ContactUs())),
+              },
+            ),
+          ],
+        ),
       ),
     );
   }

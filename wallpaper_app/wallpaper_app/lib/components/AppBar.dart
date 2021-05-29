@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 Widget appBar(BuildContext context) {
   return AppBar(
-    backgroundColor: Colors.grey,
+    backgroundColor: Colors.red,
     title: Center(
       child: Text(
         'Wallpaper Management App',

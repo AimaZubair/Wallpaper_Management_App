@@ -11,7 +11,7 @@ class _GalleryState extends State<Gallery> {
     return Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-          backgroundColor: Colors.pink,
+          backgroundColor: Colors.red,
           title: Center(
             child: Text(
               'Gallery',

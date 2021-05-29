@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:wallpaper_app/components/Drawer.dart';
-import 'ContactUs.dart';
-import 'gallery.dart';
 
 class Homepage extends StatefulWidget {
   @override
@@ -103,7 +101,7 @@ class _HomepageState extends State<Homepage> {
         [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
       backgroundColor: Colors.black,
-      drawer: NavDrawer(),
+      drawer: MyDrawer(),
       appBar: AppBar(
         backgroundColor: Colors.red,
         title: Center(

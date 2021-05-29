@@ -22,10 +22,10 @@ class _ContactUsState extends State<ContactUs> {
               color: Colors.white,
             ),
           ),
-          backgroundColor: Colors.grey,
+          backgroundColor: Colors.red,
           title: Center(
             child: Text(
-              'Wallpaper Management App',
+              'Contact Us',
               style: TextStyle(
                 fontSize: 30.0,
                 fontWeight: FontWeight.bold,
@@ -38,16 +38,6 @@ class _ContactUsState extends State<ContactUs> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Center(
-                child: Text(
-                  'Contact Us',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 30.0,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
               Padding(
                 padding: EdgeInsets.only(top: 20.0),
               ),
@@ -122,13 +112,13 @@ class _ContactUsState extends State<ContactUs> {
                     children: <Widget>[
                       CircleAvatar(
                         radius: 60.0,
-                        backgroundImage: AssetImage('assets/profile.jpg'),
+                        backgroundImage: AssetImage('assets/images/Filza.jpeg'),
                       ),
                       SizedBox(
                         height: 10.0,
                       ),
                       Text(
-                        'Hafsa Faryad',
+                        'Filza Mukhtar',
                         style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
@@ -136,7 +126,7 @@ class _ContactUsState extends State<ContactUs> {
                         ),
                       ),
                       Text(
-                        'FA17-BCS-025',
+                        'FA17-BCS-021',
                         style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
@@ -160,13 +150,13 @@ class _ContactUsState extends State<ContactUs> {
                     children: <Widget>[
                       CircleAvatar(
                         radius: 60.0,
-                        backgroundImage: AssetImage('images/profile.jpg'),
+                        backgroundImage: AssetImage('assets/images/Hafsa.jpeg'),
                       ),
                       SizedBox(
                         height: 10.0,
                       ),
                       Text(
-                        'Filza Mukhtar',
+                        'Hafsa Faryad',
                         style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
@@ -174,7 +164,7 @@ class _ContactUsState extends State<ContactUs> {
                         ),
                       ),
                       Text(
-                        'FA17-BCS-022',
+                        'FA17-BCS-025',
                         style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
@@ -190,7 +180,8 @@ class _ContactUsState extends State<ContactUs> {
                     children: <Widget>[
                       CircleAvatar(
                         radius: 60.0,
-                        backgroundImage: AssetImage('images/profile.jpg'),
+                        backgroundImage:
+                            AssetImage('assets/images/Jaweria.jpeg'),
                       ),
                       SizedBox(
                         height: 10.0,
@@ -204,7 +195,7 @@ class _ContactUsState extends State<ContactUs> {
                         ),
                       ),
                       Text(
-                        'FA1-BCS-031',
+                        'FA17-BCS-031',
                         style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
@@ -220,7 +211,7 @@ class _ContactUsState extends State<ContactUs> {
                     children: <Widget>[
                       CircleAvatar(
                         radius: 60.0,
-                        backgroundImage: AssetImage('images/Maria.jpeg'),
+                        backgroundImage: AssetImage('assets/images/Maria.jpeg'),
                       ),
                       SizedBox(
                         height: 10.0,
