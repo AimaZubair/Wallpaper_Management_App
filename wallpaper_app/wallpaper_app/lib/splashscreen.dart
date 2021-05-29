@@ -13,7 +13,7 @@ class _SplashscreenState extends State<Splashscreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 35), () {
+    Timer(Duration(seconds: 40), () {
       Navigator.of(context).pushReplacement(MaterialPageRoute(
         builder: (context) => Homepage(),
       ));
@@ -26,7 +26,7 @@ class _SplashscreenState extends State<Splashscreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.red,
         centerTitle: true,
         title: Text(
           'Wallpaper Management App',
@@ -79,7 +79,7 @@ class _SplashscreenState extends State<Splashscreen> {
               child: Divider(),
             ),
             CircleAvatar(
-              backgroundColor: Colors.grey,
+              backgroundColor: Colors.red,
               radius: 75,
               backgroundImage: AssetImage('images/load.gif'),
             ),

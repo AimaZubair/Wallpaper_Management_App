@@ -104,7 +104,7 @@ class _HomepageState extends State<Homepage> {
       backgroundColor: Colors.black,
       drawer: NavDrawer(),
       appBar: AppBar(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.red,
         title: Center(
           child: Text(
             'Wallpaper Management App',

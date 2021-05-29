@@ -9,7 +9,9 @@ class _GalleryState extends State<Gallery> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.black,
         appBar: AppBar(
+          backgroundColor: Colors.pink,
           title: Center(
             child: Text(
               'Gallery',
