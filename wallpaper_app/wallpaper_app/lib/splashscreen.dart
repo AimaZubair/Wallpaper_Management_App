@@ -25,18 +25,6 @@ class _SplashscreenState extends State<Splashscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.red,
-        centerTitle: true,
-        title: Text(
-          'Wallpaper Management App',
-          style: TextStyle(
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'FredokaOne',
-          ),
-        ),
-      ),
       body: Center(
           child: Container(
         decoration: BoxDecoration(
