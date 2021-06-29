@@ -5,8 +5,12 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/wallpaper_app/wallpaper_app/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/wallpaper_app/wallpaper_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/wallpaper_management_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/wallpaper_management_app/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>

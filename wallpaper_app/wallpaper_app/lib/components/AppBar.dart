@@ -7,7 +7,7 @@ Widget appBar(BuildContext context) {
       child: Text(
         'Wallpaper Management App',
         style: TextStyle(
-          fontSize: 30.0,
+          fontSize: 12.0,
           fontWeight: FontWeight.bold,
           fontFamily: 'FredokaOne',
         ),

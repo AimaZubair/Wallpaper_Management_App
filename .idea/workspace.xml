@@ -1,7 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d14a4514-d245-4d96-bbde-30be374fb39f" name="Default Changelist" comment="" />
+    <list default="true" id="d14a4514-d245-4d96-bbde-30be374fb39f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/flareintro.flr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/fonts/FredokaOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/images/AA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/images/Filza.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/images/Hafsa.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/images/Jaweria.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/images/Maria.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/images/faizan.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/images/load.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/assets/load.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/images/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/images/download1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/ContactUs.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/all_images.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/category_wallpapers.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/fav.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/models/wallpaper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/providers/fav_wallpaper_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/theme_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/user_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/utilities.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/User_Page/wallpaper_gallery.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/add_image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/admin.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/components/AppBar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/components/Drawer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/gallery.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/splashscreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallpaper_management_app/lib/user_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Wallpaper_Management_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Wallpaper_Management_App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/lib/components/AppBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/lib/components/AppBar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/wallpaper_app/wallpaper_app/test/widget_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.dart_tool/package_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.dart_tool/package_config_subset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.dart_tool/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.idea/walpaper_app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/android/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/d6bdcc2eff2a6af0092be06be9dc6d29/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/flutter_assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/flutter_assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/flutter_assets/NOTICES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/flutter_assets/assets/assets/flareintro.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/flutter_assets/assets/flareintro.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/flutter_assets/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/flutter_assets/images/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/flutter_assets/images/download1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/build/last_build_run.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/ios/Flutter/Generated.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/ios/Flutter/flutter_export_environment.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/walpaper_app/walpaper_app/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +114,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/walpaper_app/walpaper_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -36,10 +131,33 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1166" height="568" key="AVDManager" timestamp="1624877895063">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="100" y="100" width="1166" height="568" key="AVDManager/0.0.1366.768@0.0.1366.768" timestamp="1624877895063" />
+    <state x="502" y="130" key="AndroidProcessChooserDialog" timestamp="1624877527001">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="502" y="130" key="AndroidProcessChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1624877527001" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1622308336158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622308336158" />
+    <state x="200" y="127" key="IDE.errors.dialog" timestamp="1624877401841">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="200" y="127" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1624877401841" />
   </component>
 </project>
