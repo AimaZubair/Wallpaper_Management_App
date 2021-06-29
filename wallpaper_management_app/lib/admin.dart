@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:wallpaper_management_app/components/AppBar.dart';
 import 'package:wallpaper_management_app/components/Drawer.dart';
+import 'package:wallpaper_management_app/components/admin_view.dart';
+import 'package:wallpaper_management_app/add_image.dart';
 
 class Admin extends StatefulWidget {
+  Admin({Key key}) : super(key: key);
   @override
   _AdminState createState() => _AdminState();
 }
@@ -45,7 +48,10 @@ class _AdminState extends State<Admin> {
                       color: Colors.white,
                       size: 50,
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).pushReplacement(
+                          MaterialPageRoute(builder: (context) => Wallpaper()));
+                    },
                   ),
                   Padding(
                     padding: EdgeInsets.only(top: 20),
@@ -72,7 +78,12 @@ class _AdminState extends State<Admin> {
                       color: Colors.white,
                       size: 50,
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).pushReplacement(MaterialPageRoute(
+                          builder: (context) => Admin_view(
+                                title: 'Wallpaper Management App',
+                              )));
+                    },
                   ),
                   Padding(
                     padding: EdgeInsets.only(top: 20),

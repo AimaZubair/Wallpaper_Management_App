@@ -5,7 +5,6 @@ import 'package:image_downloader/image_downloader.dart';
 import 'package:wallpaper_management_app/components/utilities.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:photo_view/photo_view_gallery.dart';
-import 'package:provider/provider.dart';
 
 import 'models/wallpaper.dart';
 
