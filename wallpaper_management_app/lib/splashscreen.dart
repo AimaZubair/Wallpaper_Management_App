@@ -49,6 +49,7 @@ class _SplashscreenState extends State<Splashscreen> {
                   "Hafsa Faryad\n(FA17-BCS-025)",
                   "Jawaria Bashir\n(FA17-BCS-031)",
                   "Maria Nadeem\n(FA17-BCS-039)",
+                  "Arisha Ashraf\n(SP17-BCS-099)",
                 ],
                 textStyle: TextStyle(
                   fontSize: 30.0,
