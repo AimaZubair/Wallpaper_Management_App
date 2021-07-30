@@ -11,5 +11,3 @@ Hasfa Faryad (FA17-BCS-025)
 Jaweria Bashir (FA17-BCS-031)
 Maria Nadeem (FA17-BCS-039)
 
-
-https://user-images.githubusercontent.com/72137787/120081578-cde87f80-c0d7-11eb-8a74-f31eee5731e5.mp4
